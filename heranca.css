@@ -1,0 +1,23 @@
+.alert-success,
+.alert-danger,
+.alert-warning {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.alert-danger {
+  background-color: red;
+
+}
+
+.alert-success {
+  background-color: green;
+}
+
+.alert-warning {
+  background-color: yellow;
+}

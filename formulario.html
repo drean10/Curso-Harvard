@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <form>
+        <div>
+            <input type="text" name="Nome" placeholder="Digite seu nome">
+            <input type="password" name="Senha" placeholder="Digite sua senha">
+            <input type="submit" value="Enviar">
+        </div>
+        <div>
+            Cor favorita:
+            <input type="radio" name="cor" value="vermelho">Vermelho
+            <input type="radio" name="cor" value="azul">Azul
+            <input type="radio" name="cor" value="verde">Verde
+        </div>
+
+        <div>
+            <input list="countries" name="countries" placeholder="Escolha um país">
+            <datalist id="countries">
+                <option value="Brasil">
+                <option value="Argentina">
+                <option value="Chile">
+                <option value="Uruguai">
+            </datalist>
+        </div>
+
+    </form>
+</body>
+
+</html>
